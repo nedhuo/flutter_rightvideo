@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterrightdemo/datas/models/model_data.dart';
-import 'file:///D:/workSpace/android/flutter_rightvideo/lib/page/widget/banner_widget.dart';
 
 
 class DisCoverItem extends StatelessWidget {
@@ -15,7 +14,8 @@ class DisCoverItem extends StatelessWidget {
       case "horizontalScrollCard":
         //BannerView
 //        return bannerWidget(hotData.data);
-        return BannerWidget(hotData.data.itemList);
+        return Container();
+          //BannerWidget(hotData.data.itemList);
         break;
       case "textHeader":
         return Container();

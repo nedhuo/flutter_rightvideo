@@ -5,7 +5,6 @@ import 'package:flutterrightdemo/datas/models/model_data.dart';
 import 'package:flutterrightdemo/datas/models/model_discover.dart';
 import 'package:flutterrightdemo/datas/models/model_selected.dart';
 import 'package:flutterrightdemo/page/home/picture_item_page.dart';
-import 'file:///D:/workSpace/android/flutter_rightvideo/lib/page/widget/banner_widget.dart';
 import 'package:flutterrightdemo/page/widget/font_util.dart';
 import 'package:flutterrightdemo/res/styles.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -50,7 +49,7 @@ class DataItemWidget extends StatelessWidget {
         break;
       case "horizontalScrollCard":
         //BannerView
-        return BannerWidget(_itemList.data.itemList);
+        return Container();
         break;
       case "squareCardCollection":
         return Container();

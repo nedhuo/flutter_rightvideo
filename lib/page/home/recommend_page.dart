@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyrefresh/easy_refresh.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'file:///D:/workSpace/android/flutter_rightvideo/lib/page/widget/banner_widget.dart';
 import 'package:flutterrightdemo/page/widget/item_widget.dart';
 import 'package:flutterrightdemo/page/widget/progress_indicator.dart';
 import 'package:flutterrightdemo/provider/recommend_provider.dart';
@@ -85,7 +84,7 @@ class _RecommendPageState extends State<RecommendPage> {
                 SliverToBoxAdapter(
                   child: Container(
                     height: Gaps.getVGap(180),
-                    child: BannerWidget(provider.banners),
+                    child: Container(),
                   ),
                 ),
 

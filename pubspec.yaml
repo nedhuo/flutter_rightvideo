@@ -43,14 +43,14 @@ dependencies:
   json_annotation: ^3.0.0
   checked_yaml: ^1.0.2
   # 纵横交错的GridView
-  # flutter_staggered_grid_view: ^0.3.2
+  flutter_staggered_grid_view: ^0.3.3
   #性能稍微优化的瀑布流
-  flutter_staggered_grid_view:
-    git:
-      url: https://github.com/BertrandBev/flutter_staggered_grid_view.git
+#  flutter_staggered_grid_view:
+#    git:
+#      url: https://github.com/BertrandBev/flutter_staggered_grid_view.git
 
   # 设备信息
-  device_info: 0.4.0+2
+  device_info: 2.0.2
   #provider
   provider: ^4.3.2
 
